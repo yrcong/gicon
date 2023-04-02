@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019649e9-43ce-445d-b4a0-e5c3649ccdb6" name="Default" comment="" />
+    <list default="true" id="019649e9-43ce-445d-b4a0-e5c3649ccdb6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/carousel4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pdfs/sample.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/videos/banner_video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/videos/carousel1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/videos/carousel2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/videos/carousel3.mp4" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +27,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="479">
+              <caret line="167" column="15" lean-forward="true" selection-start-line="167" selection-start-column="15" selection-end-line="167" selection-end-column="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="retrieval.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/retrieval.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="vg_qual1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/vg_qual1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="vg_qual2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/vg_qual2.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -32,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Released Open Source Tools and Materials</find>
+      <find>results-carousel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,6 +90,11 @@
             <path>
               <item name="gicon" type="b2602c69:ProjectViewProjectNode" />
               <item name="gicon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gicon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gicon" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,10 +191,37 @@
     <entry file="file://$PROJECT_DIR$/method.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/oi_qual1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/vg_qual2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/vg_qual1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/graph_serial.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/retrieval.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/rcurve.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/oi_qual2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/framework.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="479">
+          <caret line="167" column="15" lean-forward="true" selection-start-line="167" selection-start-column="15" selection-end-line="167" selection-end-column="15" />
         </state>
       </provider>
     </entry>

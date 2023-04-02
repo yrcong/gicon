@@ -52,24 +52,24 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Learning Similarity between Scene Graphs and Images with Transformers</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Yuren Cong</a><sup>*</sup>,</span>
+                <a href="https://www.tnt.uni-hannover.de/en/staff/cong/" target="_blank">Yuren Cong</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Wentong Liao</a><sup>*</sup>,</span>
+                  <a href="https://www.tnt.uni-hannover.de/en/staff/liao/" target="_blank">Wentong Liao</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Bodo Rosenhahn</a>
-                  </span>
+                    <a href="https://www.tnt.uni-hannover.de/en/staff/rosenhahn/" target="_blank">Bodo Rosenhahn</a><sup>1</sup>, </span>
                   <span class="author-block">
-                    <a href="Fourth AUTHOR PERSONAL LINK" target="_blank">Michael Ying Yang</a>
+                    <a href="https://research.utwente.nl/en/persons/michael-ying-yang" target="_blank">Michael Ying Yang</a><sup>2</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Institute for Information Processing, Leibniz University Hannover</a><sup>1</sup>
+                      <br>Scene Understanding Group, University of Twente</a><sup>2</sup></span>
+                      <!--<br>Conferance name and year</span>-->
                   </div>
 
                   <div class="column has-text-centered">
@@ -85,7 +85,7 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
+                    <!-- Supplementary PDF link
                     <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
@@ -94,11 +94,11 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/yrcong/gicon/" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -107,7 +107,7 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
+                <!-- ArXiv abstract Link
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -116,7 +116,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span>-->
             </div>
           </div>
         </div>
@@ -127,20 +127,20 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
+<!--<section class="hero teaser">-->
+  <!--<div class="container is-max-desktop">-->
+    <!--<div class="hero-body">-->
+      <!--<video poster="" id="tree" autoplay controls muted loop height="100%">-->
+        <!--&lt;!&ndash; Your video here &ndash;&gt;-->
+        <!--<source src="static/videos/banner_video.mp4"-->
+        <!--type="video/mp4">-->
+      <!--</video>-->
+      <!--<h2 class="subtitle has-text-centered">-->
+        <!--Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. -->
+      <!--</h2>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</section>-->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -151,7 +151,11 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          Scene graph generation is conventionally evaluated by (mean) Recall@K, which measures the ratio of correctly predicted triplets that appear in the ground truth. However, such triplet-oriented metrics cannot capture the global semantic information of scene graphs, and  measure the similarity between images and generated scene graphs. The usability of scene graphs is therefore limited in downstream tasks.
+          To address this issue, a framework that can measure the similarity of scene graphs and images is urgently required. Motivated by the successful application of Contrastive Language-Image Pre-training (CLIP), we propose a novel contrastive learning framework consisting of a graph Transformer and an image Transformer to align scene graphs and their corresponding images in the shared latent space.
+          To enable the graph Transformer to comprehend the scene graph structure and extract representative features, we introduce a graph serialization technique that transforms a scene graph into a sequence with structural encoding.
+          Based on our framework, we introduce R-Precision measuring image retrieval accuracy as a new evaluation metric for scene graph generation and establish new benchmarks for the Visual Genome and Open Images datasets.
+          A series of experiments are further conducted to demonstrate the effectiveness of the graph Transformer, which shows great potential as a scene graph encoder.
           </p>
         </div>
       </div>
@@ -161,120 +165,133 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- Method -->
+  <section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+          we propose a straightforward and robust contrastive learning framework to connect scene graphs and images (GICON) and learn their similarity.
+            It consists of a scene graph encoder and an image encoder, both of which are built on the Transformer architecture.
+          The input scene graph can be a location-free scene graph (where nodes only represent entity categories) or a location-bound scene graph (where nodes represent entity categories and bounding boxes).
+          </p>
+          <div class="column">
+            <img src="./static/images/framework.png" />
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End method -->
 
+  <div class="hr"></div>
 
-<!-- Video carousel -->
-<section class="hero is-small">
+<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+          <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-3">Similarity between scene graphs and images</h2>
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/vg_qual1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on Visual Genome.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/vg_qual2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on Visual Genome.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/oi_qual1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Results on Open Images V6.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/oi_qual2.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Results on Open Images V6.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="hr"></div>
+
+    <div class="columns is-centered">
+
+      <!-- Setup -->
+      <div class="column">
+        <div class="content has-text-justified">
+          <h2 class="title is-3">Recall@K (widely-used)</h2>
+          <p>
+            Recall@K is widely used to evaluate scene graph generation methods.
+            It calculates the fraction of ground truth triplets that appear in the top K confident triplet predictions.
+            Due to the long tail issue in the scene graph dataset such as Visual Genome, mean Recall@K is proposed.
+            However, both Recall@K and mean Recall@K have limitations, as they critically compare the predicted triplet set with the ground truth triplet set and are thus sensitive to noise and bias in the dataset annotations
+           </p>
+            <img src="static/images/teaser.png" alt="MY ALT TEXT"/>
         </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
+      </div>
+
+      <!-- Views-->
+      <div class="column">
+        <div class="content has-text-justified">
+        <h2 class="title is-3">R-Precision (new!)</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+            Therefore, we propose R-Precision based on GICON for scene graph generation evaluation.
+            R-Precision measures the retrieval accuracy when retrieving the matching image from K image candidates using the generated scene graph as a query.
+            We use the scene graph and image representations provided by GICON to compute the similarity score for retrieval.
+            Compared to triplet-oriented metrics, R-Precision based on GICON is more robust to the perturbation of single triplets.
+            </p>
+            <img src="static/images/rcurve.png" alt="MY ALT TEXT"/>
+          </div>
+          </div>
+
         </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+
+      </div>
+    </div>
+
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-fourth-fifths">
+        <h2 class="title is-3">New Benchmark of Scene Graph Generation Models</h2>
+        <div class="content has-text-justified">
+          <p>
+          We benchmark different scene graph generation models on the Visual Genome dataset.
+            6 two-stage methods and 4 one-stage methods are re-evaluated using R-Precision (K=10/50/100) for location-free scene graphs (LF Graph) and location-bound scene graphs (LB Graph).
+          </p>
+          <div class="column">
+            <img src="./static/images/table.PNG" />
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
